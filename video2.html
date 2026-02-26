@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>HLS Player Playlist</title>
+    <!-- Caricamento libreria HLS.js tramite JSDelivr CDN -->
+    <script src="https://cdn.jsdelivr.net"></script>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #121212; color: white; text-align: center; padding: 20px; }
+        .player-container { max-width: 800px; margin: auto; }
+        video { width: 100%; border-radius: 8px; background: black; }
+        .playlist { list-style: none; padding: 0; margin-top: 20px; display: grid; gap: 10px; }
+        .playlist li { background: #2a2a2a; padding: 15px; border-radius: 5px; cursor: pointer; transition: 0.3s; border: 1px solid #444; }
+        .playlist li:hover { background: #3a3a3a; }
+        .playlist li.active { border-color: #007bff; background: #004a99; }
+        #status-log { color: #ff4444; margin-top: 10px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <div class="player-container">
+        <!-- Tag Video Standard -->
+        <video id="video" controls muted playsinline></video>
+        <div id="status-log"></div>
+
+        <ul class="playlist" id="playlist">
+            <!-- SOSTITUISCI I LINK QUI SOTTO CON I TUOI -->
+            <li data-url="https://test-streams.mux.dev" class="active">Video Test 1 (Bunny)</li>
+            <li data-url="https://bitdash-a.akamaihd.net">Video Test 2 (Sintel)</li>
+            <li data-url="https://demo.unified-streaming.com">Video Test 3 (Tears of Steel)</li>
+        </ul>
+    </div>
+
+<script>
+    const video = document.getElementById('video');
+    const log = document.getElementById('status-log');
+    const playlistItems = document.querySelectorAll('#playlist li');
+    let hls = null;
+
+    function playStream(url) {
+        log.innerText = ""; // Pulisce errori precedenti
+
+        // 1. Rimuovi istanza HLS precedente per evitare crash
+        if (hls) {
+            hls.destroy();
+        }
+
+        // 2. Verifica supporto HLS.js (Chrome, Firefox, Edge)
+        if (Hls.isSupported()) {
+            hls = new Hls({
+                debug: false,
+                enableWorker: true
+            });
+            hls.loadSource(url);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, () => video.play());
+            
+            // Gestione errori specifica
+            hls.on(Hls.Events.ERROR, (event, data) => {
+                if (data.fatal) {
+                    log.innerText = "Errore caricamento: Probabile problema CORS o link scaduto.";
+                    console.error("HLS Error:", data);
+                }
+            });
+        } 
+        // 3. Supporto nativo Apple (Safari)
+        else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = url;
+            video.addEventListener('loadedmetadata', () => video.play());
+        }
+    }
+
+    // Gestione click sulla lista
+    playlistItems.forEach(item => {
+        item.addEventListener('click', function() {
+            playlistItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+            playStream(this.getAttribute('data-url'));
+        });
+    });
+
+    // Avvia il primo video all'apertura
+    playStream(playlistItems[0].getAttribute('data-url'));
+</script>
+
+</body>
+</html>
