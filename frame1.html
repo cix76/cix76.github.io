@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>  
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play .m3u8 File in HTML5 video player</title>
+   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest">
+    
+   </script>
+    <link rel="stylesheet" href="astyle.css">
+
+<script language="JavaScript">
+    let Src = "https://rai.zappr.stream/rai1.m3u8"
+
+    function canaliTV(myUrl){
+        Src = myUrl
+                var video = document.getElementById('video');
+        var videoSrc = Src;
+
+        if (Hls.isSupported()) {
+          var hls = new Hls();
+          hls.loadSource(videoSrc);
+          hls.attachMedia(video);
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+          // Supporto nativo (es. Safari)
+          video.src = videoSrc;
+        }
+
+    }
+</script>
+</HEAD>
+<BODY>
+
+
+<!-- Tag Video Standard -->
+
+<div class="player-container" style="float:left; display:block;">
+  <video id="video" controls style="width: 870px; height: 490px;" controls autoplay="true" ></video>
+</div>
+  
+
+<script>   
+ 
+
+
+  var video = document.getElementById('video');
+  var videoSrc = Src;
+
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    // Supporto nativo (es. Safari)
+    video.src = videoSrc;
+  }
+</script>
+</BODY>
+</HTML>
