@@ -1,14 +1,14 @@
 body { font-family: system-ui, sans-serif; background: #121212; color: white; text-align: center; padding: 0px; }
-        .player-container { max-width: 800px; margin: auto; }
+        .player-container { max-width: 100%; margin: auto; }
         video { width: 100%; border-radius: 6px; background: black;}
-        .playlist { width: 400px;list-style: none; padding: 0; margin-top: 0px; margin-left: 0px;display: grid; gap: 5px; }
-        .playlist li { width: 400px; background: #2a2a2a; padding: 5px; border-radius: 5px; cursor: pointer; transition: 0.3s; text-align: left; border: 1px solid #444; } 
+        .playlist { width: 100%;list-style: none; padding: 0; margin-top: 0px; margin-left: 0px;display: grid; gap: 5px; }
+        .playlist li {  background: #2a2a2a; padding: 5px; border-radius: 5px; cursor: pointer; transition: 0.3s; text-align: left; border: 1px solid #444; } 
         .playlist li:hover { background: #3a3a3a; }
         .playlist li.active { border-color: #2a2a2a; background: #0c0c0c; }
         #status-log { color: #ff4444; margin-top: 10px; font-size: 0.9em; }
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 /* Track */
@@ -29,21 +29,22 @@ body { font-family: system-ui, sans-serif; background: #121212; color: white; te
 }
 
 .canale {
+  
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3 colonne uguali */
+    /*grid-template-columns: repeat(2, 1fr); /* 3 colonne uguali */
     gap: 20px;
 
 }
 .box1{
     float: left; /* Affianca a sinistra */
-    width: 30%;  /* Larghezza definita */
+    width: 50%;  /* Larghezza definita */
     margin-left: 2%;
     justify-content: center;
 }
 
 .box2{
     float: left; /* Affianca a sinistra */
-    width: 30%;  /* Larghezza definita */
+    width: 40%;  /* Larghezza definita */
     margin-left: 2%;
     justify-content: center;
 }
