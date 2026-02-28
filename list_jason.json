@@ -27,7 +27,7 @@
     {
         "lcn": "2",
         "name": "Rai 2",
-        "logo": "https://i.imgur.com/zA0PTcs.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/rai2.png",
         "url": "https://rai.zappr.stream/rai2.m3u8",
         "category": "Italy",
         "tvg": {
@@ -50,7 +50,7 @@
     {
         "lcn": "3",
         "name": "Rai 3",
-        "logo": "https://i.imgur.com/9kuQCIi.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/rai3.png",
         "url": "https://rai.zappr.stream/rai3.m3u8",
         "category": "Italy",
         "tvg": {
@@ -73,7 +73,7 @@
     {
         "lcn": "4",
         "name": "Rete 4",
-        "logo": "https://i.imgur.com/GWx2Fkl.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/rete4.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
         "category": "Italy",
         "tvg": {
@@ -96,7 +96,7 @@
     {
         "lcn": "5",
         "name": "Canale 5",
-        "logo": "https://i.imgur.com/p6YdiR1.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/canale5.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
         "category": "Italy",
         "tvg": {
@@ -119,7 +119,7 @@
         {
         "lcn": "6",
         "name": "Italia 1",
-        "logo": "https://i.imgur.com/oCiOxBG.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/italia1.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
         "category": "Italy",
         "tvg": {
@@ -142,7 +142,7 @@
         {
         "lcn": "7",
         "name": "La7",
-        "logo": "https://i.imgur.com/F90mpSa.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/la7.png",
         "url": "https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8",
         "category": "Italy",
         "tvg": {
@@ -165,7 +165,7 @@
         {
         "lcn": "8",
         "name": "TV8",
-        "logo": "https://i.imgur.com/xvoHVOU.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/tv8.png",
         "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
         "category": "Italy",
         "tvg": {
@@ -188,7 +188,7 @@
         {
         "lcn": "9",
         "name": "Nove",
-        "logo": "https://i.imgur.com/Hp723RU.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/nove.png",
         "url": "https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8",
         "category": "Italy",
         "tvg": {
@@ -211,7 +211,7 @@
        {
         "lcn": "10",
         "name": "20 Mediaset",
-        "logo": "https://i.imgur.com/It13jwX.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/20mediaset.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
         "category": "Italy",
         "tvg": {
