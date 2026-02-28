@@ -1,5 +1,5 @@
 {
-    "$schema": "../../schema.json",
+   
     "channels": [
     {   
         "lcn": "1",
@@ -25,6 +25,7 @@
         "live": false
     },
     {
+        "lcn": "2",
         "name": "Rai 2",
         "logo": "https://i.imgur.com/zA0PTcs.png",
         "url": "https://rai.zappr.stream/rai2.m3u8",
@@ -47,6 +48,7 @@
         "live": false
     },
     {
+        "lcn": "3",
         "name": "Rai 3",
         "logo": "https://i.imgur.com/9kuQCIi.png",
         "url": "https://rai.zappr.stream/rai3.m3u8",
@@ -69,7 +71,8 @@
         "live": false
     },
     {
-        "name": "Rete 4 \u24bc",
+        "lcn": "4",
+        "name": "Rete 4",
         "logo": "https://i.imgur.com/GWx2Fkl.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
         "category": "Italy",
@@ -91,7 +94,8 @@
         "live": true
     },
     {
-        "name": "Canale 5 \u24bc",
+        "lcn": "5",
+        "name": "Canale 5",
         "logo": "https://i.imgur.com/p6YdiR1.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
         "category": "Italy",
@@ -113,7 +117,8 @@
         "live": true
    },
         {
-        "name": "Italia 1 \u24bc",
+        "lcn": "6",
+        "name": "Italia 1",
         "logo": "https://i.imgur.com/oCiOxBG.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
         "category": "Italy",
@@ -135,6 +140,7 @@
         "live": true
     },
         {
+        "lcn": "7",
         "name": "La7",
         "logo": "https://i.imgur.com/F90mpSa.png",
         "url": "https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8",
@@ -157,7 +163,8 @@
         "live": false
     },
         {
-        "name": "TV8 \u24bc",
+        "lcn": "8",
+        "name": "TV8",
         "logo": "https://i.imgur.com/xvoHVOU.png",
         "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
         "category": "Italy",
@@ -179,6 +186,7 @@
         "live": true
     },
         {
+        "lcn": "9",
         "name": "Nove",
         "logo": "https://i.imgur.com/Hp723RU.png",
         "url": "https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8",
@@ -201,6 +209,7 @@
         "live": true
     },
        {
+        "lcn": "10",
         "name": "20 Mediaset \u24bc",
         "logo": "https://i.imgur.com/It13jwX.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
@@ -223,7 +232,8 @@
         "live": true
     },
         {
-        "name": "Rai 4K \u24bc",
+        "lcn": "11",
+        "name": "Rai 4K",
         "logo": "https://i.imgur.com/5gkt9DD.png",
         "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8",
         "category": "Italy",
@@ -245,7 +255,8 @@
         "live": true
     },
         {
-        "name": "Iris \u24bc",
+        "lcn": "12",
+        "name": "Iris",
         "logo": "https://i.imgur.com/Ixz1BY3.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8",
         "category": "Italy",
@@ -267,7 +278,8 @@
         "live": true
     },
         {
-        "name": "Rai 5 \u24bc",
+        "lcn": "13",
+        "name": "Rai 5",
         "logo": "https://i.imgur.com/Leu2zTO.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -289,7 +301,8 @@
         "live": false
     },
         {
-        "name": "Rai Movie \u24bc",
+        "lcn": "14",
+        "name": "Rai Movie",
         "logo": "https://i.imgur.com/RKpO8CE.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -311,7 +324,8 @@
         "live": false
     },
         {
-        "name": "Rai Premium \u24bc",
+        "lcn": "15",
+        "name": "Rai Premium",
         "logo": "https://i.imgur.com/RKI4nFy.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -333,7 +347,8 @@
         "live": false
     },
         {
-        "name": "Cielo \u24bc",
+        "lcn": "16",
+        "name": "Cielo",
         "logo": "https://i.imgur.com/cPluF03.png",
         "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
         "category": "Italy",
@@ -355,7 +370,8 @@
         "live": true
     },
         {
-        "name": "27 Twentyseven \u24bc",
+        "lcn": "17",
+        "name": "27 Twentyseven",
         "logo": "https://i.imgur.com/y2PdPCK.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8",
         "category": "Italy",
@@ -377,6 +393,7 @@
         "live": true
     },
         {
+        "lcn": "18",
         "name": "TV 2000",
         "logo": "https://i.imgur.com/x7RaK3a.png",
         "url": "https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8",
@@ -399,6 +416,7 @@
         "live": false
     },
         {
+        "lcn": "19",
         "name": "La7 Cinema",
         "logo": "https://i.imgur.com/khPweok.png",
         "url": "https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8",
@@ -421,7 +439,8 @@
         "live": false
     },
         {
-        "name": "La 5 \u24bc",
+        "lcn": "20",
+        "name": "La 5",
         "logo": "https://i.imgur.com/UNyJaho.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8",
         "category": "Italy",
@@ -443,6 +462,7 @@
         "live": true
     },
         {
+        "lcn": "21",
         "name": "Real Time",
         "logo": "https://i.imgur.com/9dcTYg1.png",
         "url": "https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8",
@@ -465,6 +485,7 @@
         "live": true
     },
         {
+        "lcn": "22",
         "name": "QVC",
         "logo": "https://i.imgur.com/Ea7iUX2.png",
         "url": "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8",
@@ -487,6 +508,7 @@
         "live": true
     },
         {
+        "lcn": "23",
         "name": "Food Network",
         "logo": "https://i.imgur.com/i60OYr9.png",
         "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8",
@@ -509,7 +531,8 @@
         "live": true
     },
         {
-        "name": "Cine34   \u24bc",
+        "lcn": "24",
+        "name": "Cine34",
         "logo": "https://i.imgur.com/YyldwhI.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8",
         "category": "Italy",
@@ -531,7 +554,8 @@
         "live": true
     },
         {
-        "name": "Focus \u24bc",
+        "lcn": "25",
+        "name": "Focus",
         "logo": "https://i.imgur.com/M4smqpF.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8",
         "category": "Italy",
@@ -553,6 +577,7 @@
         "live": true
     },
         {
+        "lcn": "26",
         "name": "RTL 102.5",
         "logo": "https://i.imgur.com/KdissvS.png",
         "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8",
@@ -575,6 +600,7 @@
         "live": false
     },
         {
+        "lcn": "27",
         "name": "Discovery Channel",
         "logo": "https://i.imgur.com/5IxIFJ0.png",
         "url": "https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8",
@@ -597,6 +623,7 @@
         "live": true
     },
         {
+        "lcn": "28",
         "name": "Giallo",
         "logo": "https://i.imgur.com/0PIRwZS.png",
         "url": "https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8",
@@ -619,7 +646,8 @@
         "live": true
     },
         {
-        "name": "Top Crime   \u24bc",
+        "lcn": "29",
+        "name": "Top Crime",
         "logo": "https://i.imgur.com/RFIwv9O.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8",
         "category": "Italy",
@@ -641,7 +669,8 @@
         "live": true
     },
         {
-        "name": "BOING   \u24bc",
+        "lcn": "30",
+        "name": "BOING",
         "logo": "https://i.imgur.com/niSlrqT.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
         "category": "Italy",
@@ -663,6 +692,7 @@
         "live": true
     },
         {
+        "lcn": "31",
         "name": "K2",
         "logo": "https://i.imgur.com/wlLgSiA.png",
         "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8",
@@ -685,7 +715,8 @@
         "live": true
     },
         {
-        "name": "Rai Gulp \u24bc",
+        "lcn": "32",
+        "name": "Rai Gulp",
         "logo": "https://i.imgur.com/lu1DPVb.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -707,7 +738,8 @@
         "live": false
     },
         {
-        "name": "Rai YoYo \u24bc",
+        "lcn": "33",
+        "name": "Rai YoYo",
         "logo": "https://i.imgur.com/DRSa3ys.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -729,6 +761,7 @@
         "live": false
     },
         {
+        "lcn": "34",
         "name": "Frisbee",
         "logo": "https://i.imgur.com/9y1zIAe.png",
         "url": "https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8",
@@ -751,7 +784,8 @@
         "live": true
     },
         {
-        "name": "Cartoonito \u24bc",
+        "lcn": "35",
+        "name": "Cartoonito",
         "logo": "https://i.imgur.com/oK2DcDJ.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8",
         "category": "Italy",
@@ -773,6 +807,7 @@
         "live": true
     },
         {
+        "lcn": "36",
         "name": "Super!",
         "logo": "https://i.imgur.com/1124YEp.png",
         "url": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8",
@@ -795,7 +830,8 @@
         "live": false
     },
         {
-        "name": "Rai News 24 \u24bc",
+        "lcn": "37",
+        "name": "Rai News 24",
         "logo": "https://i.imgur.com/gdzGwB6.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -817,7 +853,8 @@
         "live": false
     },
         {
-        "name": "Italia 2 \u24bc",
+        "lcn": "38",
+        "name": "Italia 2",
         "logo": "https://i.imgur.com/nq48sjO.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8",
         "category": "Italy",
@@ -839,7 +876,8 @@
         "live": true
     },
         {
-        "name": "Sky TG24 \u24bc",
+        "lcn": "39",
+        "name": "Sky TG24",
         "logo": "https://i.imgur.com/q4d3Dah.png",
         "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
         "category": "Italy",
@@ -861,7 +899,8 @@
         "live": true
     },
         {
-        "name": "TGCOM 24 \u24bc",
+        "lcn": "40",
+        "name": "TGCOM 24",
         "logo": "https://i.imgur.com/xautVD8.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
         "category": "Italy",
@@ -883,6 +922,7 @@
         "live": true
     },
         {
+        "lcn": "41",
         "name": "DMAX",
         "logo": "https://i.imgur.com/dmEmRX7.png",
         "url": "https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8",
@@ -905,7 +945,8 @@
         "live": true
     },
         {
-        "name": "Rai Storia \u24bc",
+        "lcn": "42",
+        "name": "Rai Storia",
         "logo": "https://i.imgur.com/K8y5q8x.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -927,6 +968,7 @@
         "live": false
     },
         {
+        "lcn": "43",
         "name": "Mediaset Extra \u24bc",
         "logo": "https://i.imgur.com/mM8lopo.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
@@ -949,6 +991,7 @@
         "live": true
     },
         {
+        "lcn": "44",
         "name": "HGTV \u2013 Home & Garden Tv",
         "logo": "https://i.imgur.com/emLNC0U.png",
         "url": "https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8",
@@ -971,7 +1014,8 @@
         "live": true
     },
         {
-        "name": "Rai Scuola \u24bc",
+        "lcn": "45",
+        "name": "Rai Scuola",
         "logo": "https://i.imgur.com/tmtJW6s.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -993,7 +1037,8 @@
         "live": false
     },
      {
-        "name": "Rai Sport \u24bc",
+         "lcn": "46",
+        "name": "Rai Sport",
         "logo": "https://i.imgur.com/xsGljsb.png",
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5",
         "category": "Italy",
@@ -1015,6 +1060,7 @@
         "live": false
     },
         {
+             "lcn": "47",
         "name": "Motor Trend",
         "logo": "https://i.imgur.com/ipj2H0n.png",
         "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
@@ -1037,6 +1083,7 @@
         "live": true
     },
         {
+             "lcn": "48",
         "name": "Sportitalia Plus",
         "logo": "https://i.imgur.com/hu56Ya5.png",
         "url": "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8",
@@ -1059,6 +1106,7 @@
         "live": true
     },
         {
+             "lcn": "49",
         "name": "Sportitalia SOLOCALCIO",
         "logo": "https://i.imgur.com/hu56Ya5.png",
         "url": "https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8",
@@ -1081,6 +1129,7 @@
         "live": false
     },
         {
+             "lcn": "50",
         "name": "SuperTennis",
         "logo": "https://i.imgur.com/GzsPlbX.png",
         "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
