@@ -210,7 +210,7 @@
     },
        {
         "lcn": "10",
-        "name": "20 Mediaset \u24bc",
+        "name": "20 Mediaset",
         "logo": "https://i.imgur.com/It13jwX.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
         "category": "Italy",
@@ -969,7 +969,7 @@
     },
         {
         "lcn": "43",
-        "name": "Mediaset Extra \u24bc",
+        "name": "Mediaset Extra",
         "logo": "https://i.imgur.com/mM8lopo.png",
         "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
         "category": "Italy",
