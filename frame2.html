@@ -11,27 +11,56 @@
    <ul class="playlist" id="playlist">
             <!-- SOSTITUISCI I LINK QUI SOTTO CON I TUOI -->
              <div class="canale">
-                <li onClick="parent.fr1.canaliTV('https://rai.zappr.stream/rai1.m3u8')">
-                <div class="box1"><img class="logo" src="img-canali/rai1.png" crossorigin="anonymous" loading="lazy" style="--ratio: 0.7573;width: 80px;"></div>
-                <div class="box2"><h2>Test Rai 1</h2></div>
-                </li>
-             </div>
-             <li onClick="parent.fr1.canaliTV('https://rai.zappr.stream/rai2.m3u8')">Test Rai 2</li>
-             <li onClick="parent.fr1.canaliTV('https://rai.zappr.stream/rai3.m3u8')">Test Rai 3</li>
-             <li onClick="parent.fr1.canaliTV('https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8')">Test Rete 4 </li>
-             <li data-url="https://rai.zappr.stream/rai2.m3u8" >Video Test 2</li>
-             <li data-url="https://rai.zappr.stream/rai3.m3u8" >Video Test 3</li>
-             <li data-url="https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8" >Video Test 4</li>
- <li data-url="https://rai.zappr.stream/rai1.m3u8" onClick="parent.fr1.Ciao()">Video Test 1 </li>
-             <li data-url="https://rai.zappr.stream/rai2.m3u8" onClick="parent.fr1.Ehi()">Video Test 2</li>
-             <li data-url="https://rai.zappr.stream/rai3.m3u8" >Video Test 3</li>
-             <li data-url="https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8" >Video Test 4</li>
-             <li data-url="https://rai.zappr.stream/rai1.m3u8" >Video Test 1 </li>
-             <li data-url="https://rai.zappr.stream/rai2.m3u8" >Video Test 2</li>
-             <li data-url="https://rai.zappr.stream/rai3.m3u8" >Video Test 3</li>
-             <li data-url="https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8" >Video Test 4</li>
+               <script>
+  const listaCanali = document.getElementById('playlist');
 
-         </ul>
+fetch('https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/list_jason.json')
+  .then(response => {
+    if (!response.ok) throw new Error("Errore nel caricamento del file JSON");
+    return response.json();
+  })
+  .then(data => {
+    data.channels.forEach(canale => {
+      const li = document.createElement('li');
+      
+      // Aggiungiamo una classe CSS (opzionale) per far capire che è cliccabile
+      li.style.cursor = "playlist";
+
+      /* ORIGINALE
+      li.innerHTML = `
+        <strong>${canale.lcn}</strong> - 
+        <span>${canale.name}</span> 
+        ${canale.hd ? '<small>(HD)</small>' : ''}
+        <br>
+        <a href="${canale.url}" target="_blank">Guarda Streaming</a>
+      `;*/
+
+      li.innerHTML = `
+        <div class="p1">${canale.lcn}</div> 
+        <div class="img-logo"><img class="logo" src=${canale.logo}></div>
+        <div class="p2">${canale.name}</div> 
+        ${canale.hd ? '<small>(HD)</small>' : ''}
+ 
+      `;
+
+      // --- AGGIUNTA FUNZIONE ONCLICK ---
+      li.addEventListener('click', (event) => {
+        // Logica da eseguire al click
+        parent.fr1.canaliTV(canale.url);
+        
+        // Esempio: se vuoi che il click sul LI apra lo streaming 
+        // (facendo la stessa cosa del link <a>)
+        // window.open(canale.url, '_blank');
+      });
+      // ---------------------------------
+
+      listaCanali.appendChild(li);
+    });
+  })
+  .catch(error => console.error("Errore:", error));
+
+
+    </script>
            
 </div>
 
