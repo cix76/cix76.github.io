@@ -49,3 +49,32 @@ body { font-family: system-ui, sans-serif; background: #121212; color: white; te
     justify-content: center;
 }
 
+.logo{
+  width: 60px;
+  vertical-align: bottom;
+  float: left;
+   margin-right: 10px;
+}
+
+
+.img-logo{
+  width: 60px;
+  vertical-align: bottom;
+ 
+}
+
+.p1{
+    vertical-align: super;
+    margin-right: 5px;
+    float: right;
+}
+
+.p2{
+ 
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+
+}
