@@ -1,0 +1,1105 @@
+{
+    "$schema": "../../schema.json",
+    "channels": [
+    {
+        "name": "Rai 1",
+        "logo": "https://i.imgur.com/CAx7yRm.png",
+        "url": "https://rai.zappr.stream/rai1.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Rai1.it",
+            "name": "Rai 1 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "Rai 2",
+        "logo": "https://i.imgur.com/zA0PTcs.png",
+        "url": "https://rai.zappr.stream/rai2.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Rai2.it",
+            "name": "Rai 2 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "Rai 3",
+        "logo": "https://i.imgur.com/9kuQCIi.png",
+        "url": "https://rai.zappr.stream/rai3.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Rai3.it",
+            "name": "Rai 3 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+    {
+        "name": "Rete 4 \u24bc",
+        "logo": "https://i.imgur.com/GWx2Fkl.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Rete4.it",
+            "name": "Rete 4 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+    {
+        "name": "Canale 5 \u24bc",
+        "logo": "https://i.imgur.com/p6YdiR1.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Canale5.it",
+            "name": "Canale 5 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+   },
+        {
+        "name": "Italia 1 \u24bc",
+        "logo": "https://i.imgur.com/oCiOxBG.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Italia1.it",
+            "name": "Italia 1 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "La7",
+        "logo": "https://i.imgur.com/F90mpSa.png",
+        "url": "https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "La7.it",
+            "name": "La7",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "TV8 \u24bc",
+        "logo": "https://i.imgur.com/xvoHVOU.png",
+        "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+        "category": "Italy",
+        "tvg": {
+            "id": "TV8.it",
+            "name": "TV8 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Nove",
+        "logo": "https://i.imgur.com/Hp723RU.png",
+        "url": "https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Nove.it",
+            "name": "Nove",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+       {
+        "name": "20 Mediaset \u24bc",
+        "logo": "https://i.imgur.com/It13jwX.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "20.it",
+            "name": "20 Mediaset \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Rai 4K \u24bc",
+        "logo": "https://i.imgur.com/5gkt9DD.png",
+        "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Rai4K.it",
+            "name": "Rai 4K \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Iris \u24bc",
+        "logo": "https://i.imgur.com/Ixz1BY3.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Iris.it",
+            "name": "Iris \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Rai 5 \u24bc",
+        "logo": "https://i.imgur.com/Leu2zTO.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "Rai5.it",
+            "name": "Rai 5 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Rai Movie \u24bc",
+        "logo": "https://i.imgur.com/RKpO8CE.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiMovie.it",
+            "name": "Rai Movie \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Rai Premium \u24bc",
+        "logo": "https://i.imgur.com/RKI4nFy.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiPremium.it",
+            "name": "Rai Premium \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Cielo \u24bc",
+        "logo": "https://i.imgur.com/cPluF03.png",
+        "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+        "category": "Italy",
+        "tvg": {
+            "id": "CieloTV.it",
+            "name": "Cielo \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "27 Twentyseven \u24bc",
+        "logo": "https://i.imgur.com/y2PdPCK.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "27Twentyseven.it",
+            "name": "27 Twentyseven \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "TV 2000",
+        "logo": "https://i.imgur.com/x7RaK3a.png",
+        "url": "https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "TV2000.va",
+            "name": "TV 2000",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "La7 Cinema",
+        "logo": "https://i.imgur.com/khPweok.png",
+        "url": "https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "La7Cinema.it",
+            "name": "La7 Cinema",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "La 5 \u24bc",
+        "logo": "https://i.imgur.com/UNyJaho.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "La5.it",
+            "name": "La 5 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Real Time",
+        "logo": "https://i.imgur.com/9dcTYg1.png",
+        "url": "https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "RealTimeItaly.it",
+            "name": "Real Time",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "QVC",
+        "logo": "https://i.imgur.com/Ea7iUX2.png",
+        "url": "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "QVCItaly.it",
+            "name": "QVC",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Food Network",
+        "logo": "https://i.imgur.com/i60OYr9.png",
+        "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "FoodNetworkItaly.it",
+            "name": "Food Network",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Cine34   \u24bc",
+        "logo": "https://i.imgur.com/YyldwhI.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Cine34.it",
+            "name": "Cine34   \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Focus \u24bc",
+        "logo": "https://i.imgur.com/M4smqpF.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Focus.it",
+            "name": "Focus \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "RTL 102.5",
+        "logo": "https://i.imgur.com/KdissvS.png",
+        "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "RTL1025TV.it",
+            "name": "RTL 102.5",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Discovery Channel",
+        "logo": "https://i.imgur.com/5IxIFJ0.png",
+        "url": "https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "DiscoveryChannel.it",
+            "name": "Discovery Channel",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Giallo",
+        "logo": "https://i.imgur.com/0PIRwZS.png",
+        "url": "https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Giallo.it",
+            "name": "Giallo",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Top Crime   \u24bc",
+        "logo": "https://i.imgur.com/RFIwv9O.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "TopCrime.it",
+            "name": "Top Crime   \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "BOING   \u24bc",
+        "logo": "https://i.imgur.com/niSlrqT.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "BoingItaly.it",
+            "name": "BOING   \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "K2",
+        "logo": "https://i.imgur.com/wlLgSiA.png",
+        "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "K2.it",
+            "name": "K2",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Rai Gulp \u24bc",
+        "logo": "https://i.imgur.com/lu1DPVb.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiGulp.it",
+            "name": "Rai Gulp \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Rai YoYo \u24bc",
+        "logo": "https://i.imgur.com/DRSa3ys.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiYoyo.it",
+            "name": "Rai YoYo \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Frisbee",
+        "logo": "https://i.imgur.com/9y1zIAe.png",
+        "url": "https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Frisbee.it",
+            "name": "Frisbee",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Cartoonito \u24bc",
+        "logo": "https://i.imgur.com/oK2DcDJ.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "CartoonitoItaly.it",
+            "name": "Cartoonito \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Super!",
+        "logo": "https://i.imgur.com/1124YEp.png",
+        "url": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Super.it",
+            "name": "Super!",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Rai News 24 \u24bc",
+        "logo": "https://i.imgur.com/gdzGwB6.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiNews24.it",
+            "name": "Rai News 24 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Italia 2 \u24bc",
+        "logo": "https://i.imgur.com/nq48sjO.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Italia2.it",
+            "name": "Italia 2 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Sky TG24 \u24bc",
+        "logo": "https://i.imgur.com/q4d3Dah.png",
+        "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+        "category": "Italy",
+        "tvg": {
+            "id": "SkyTG24.it",
+            "name": "Sky TG24 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "TGCOM 24 \u24bc",
+        "logo": "https://i.imgur.com/xautVD8.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "TGCom24.it",
+            "name": "TGCOM 24 \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "DMAX",
+        "logo": "https://i.imgur.com/dmEmRX7.png",
+        "url": "https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "DMAXItaly.it",
+            "name": "DMAX",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Rai Storia \u24bc",
+        "logo": "https://i.imgur.com/K8y5q8x.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiStoria.it",
+            "name": "Rai Storia \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Mediaset Extra \u24bc",
+        "logo": "https://i.imgur.com/mM8lopo.png",
+        "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "MediasetExtra.it",
+            "name": "Mediaset Extra \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "HGTV \u2013 Home & Garden Tv",
+        "logo": "https://i.imgur.com/emLNC0U.png",
+        "url": "https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "HGTVItaly.it",
+            "name": "HGTV \u2013 Home & Garden Tv",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Rai Scuola \u24bc",
+        "logo": "https://i.imgur.com/tmtJW6s.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiScuola.it",
+            "name": "Rai Scuola \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+     {
+        "name": "Rai Sport \u24bc",
+        "logo": "https://i.imgur.com/xsGljsb.png",
+        "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5",
+        "category": "Italy",
+        "tvg": {
+            "id": "RaiSport.it",
+            "name": "Rai Sport \u24bc",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "Motor Trend",
+        "logo": "https://i.imgur.com/ipj2H0n.png",
+        "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "MotorTrend.it",
+            "name": "Motor Trend",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Sportitalia Plus",
+        "logo": "https://i.imgur.com/hu56Ya5.png",
+        "url": "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "Sportitalia.it",
+            "name": "Sportitalia Plus",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    },
+        {
+        "name": "Sportitalia SOLOCALCIO",
+        "logo": "https://i.imgur.com/hu56Ya5.png",
+        "url": "https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "SportitaliaSolocalcio.it",
+            "name": "Sportitalia SOLOCALCIO",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
+        {
+        "name": "SuperTennis",
+        "logo": "https://i.imgur.com/GzsPlbX.png",
+        "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+        "category": "Italy",
+        "tvg": {
+            "id": "SuperTennis.it",
+            "name": "SuperTennis",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "GOOD",
+        "live": true
+    }
+]
+}
