@@ -4,7 +4,7 @@
     {   
         "lcn": "1",
         "name": "Rai 1",
-        "logo": "https://github.com/cix76/cix76.github.io/blob/main/img-canali/rai1.png",
+        "logo": "https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/img-canali/rai1.png",
         "url": "https://rai.zappr.stream/rai1.m3u8",
         "category": "Italy",
         "tvg": {
