@@ -1151,5 +1151,28 @@
         "status": "GOOD",
         "live": true
     }
+        {
+        "lcn": "51",
+        "name": "Euronews Italian",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png",
+        "url": "https://www.youtube.com/user/euronewsit/live",
+        "category": "Italy",
+        "tvg": {
+            "id": "EuronewsItalian.fr",
+            "name": "Euronews Italian \u24ce",
+            "url": null,
+            "chno": null
+        },
+        "country": {
+            "code": null,
+            "name": null
+        },
+        "language": {
+            "code": null,
+            "name": null
+        },
+        "status": "BAD",
+        "live": false
+    },
 ]
 }
