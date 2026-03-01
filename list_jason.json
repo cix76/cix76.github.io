@@ -2,37 +2,37 @@
     "channels": [
         {
             "lcn": 1,
-            "name": "Rai 1 Ⓖ",
+            "name": "Rai 1",
             "tvg-name": "Rai 1 Ⓖ",
             "tvg-logo": "https://i.imgur.com/CAx7yRm.png",
             "logo": "https://i.imgur.com/CAx7yRm.png",
             "tvg-id": "Rai1.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://rai.zappr.stream/rai1.m3u8"
         },
         {
             "lcn": 2,
-            "name": "Rai 2 Ⓖ",
+            "name": "Rai 2",
             "tvg-name": "Rai 2 Ⓖ",
             "tvg-logo": "https://i.imgur.com/zA0PTcs.png",
             "logo": "https://i.imgur.com/zA0PTcs.png",
             "tvg-id": "Rai2.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://rai.zappr.stream/rai2.m3u8"
         },
         {
             "lcn": 3,
-            "name": "Rai 3 Ⓖ",
+            "name": "Rai 3",
             "tvg-name": "Rai 3 Ⓖ",
             "tvg-logo": "https://i.imgur.com/9kuQCIi.png",
             "logo": "https://i.imgur.com/9kuQCIi.png",
             "tvg-id": "Rai3.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://rai.zappr.stream/rai3.m3u8"
         },
         {
             "lcn": 4,
-            "name": "Rete 4 Ⓖ",
+            "name": "Rete 4",
             "tvg-name": "Rete 4 Ⓖ",
             "tvg-logo": "https://i.imgur.com/GWx2Fkl.png",
             "logo": "https://i.imgur.com/GWx2Fkl.png",
@@ -42,7 +42,7 @@
         },
         {
             "lcn": 5,
-            "name": "Canale 5 Ⓖ",
+            "name": "Canale 5",
             "tvg-name": "Canale 5 Ⓖ",
             "tvg-logo": "https://i.imgur.com/p6YdiR1.png",
             "logo": "https://i.imgur.com/p6YdiR1.png",
@@ -52,7 +52,7 @@
         },
         {
             "lcn": 6,
-            "name": "Italia 1 Ⓖ",
+            "name": "Italia 1",
             "tvg-name": "Italia 1 Ⓖ",
             "tvg-logo": "https://i.imgur.com/oCiOxBG.png",
             "logo": "https://i.imgur.com/oCiOxBG.png",
@@ -72,7 +72,7 @@
         },
         {
             "lcn": 8,
-            "name": "TV8 Ⓖ",
+            "name": "TV8",
             "tvg-name": "TV8 Ⓖ",
             "tvg-logo": "https://i.imgur.com/xvoHVOU.png",
             "logo": "https://i.imgur.com/xvoHVOU.png",
@@ -92,7 +92,7 @@
         },
         {
             "lcn": 10,
-            "name": "20 Mediaset Ⓖ",
+            "name": "20 Mediaset",
             "tvg-name": "20 Mediaset Ⓖ",
             "tvg-logo": "https://i.imgur.com/It13jwX.png",
             "logo": "https://i.imgur.com/It13jwX.png",
@@ -102,17 +102,17 @@
         },
         {
             "lcn": 11,
-            "name": "Rai 4 Ⓖ",
+            "name": "Rai 4",
             "tvg-name": "Rai 4 Ⓖ",
             "tvg-logo": "https://i.imgur.com/XFkZRfv.png",
             "logo": "https://i.imgur.com/XFkZRfv.png",
             "tvg-id": "Rai4.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv"
         },
         {
             "lcn": 12,
-            "name": "Iris Ⓖ",
+            "name": "Iris",
             "tvg-name": "Iris Ⓖ",
             "tvg-logo": "https://i.imgur.com/Ixz1BY3.png",
             "logo": "https://i.imgur.com/Ixz1BY3.png",
@@ -122,37 +122,37 @@
         },
         {
             "lcn": 13,
-            "name": "Rai 5 Ⓖ",
+            "name": "Rai 5",
             "tvg-name": "Rai 5 Ⓖ",
             "tvg-logo": "https://i.imgur.com/Leu2zTO.png",
             "logo": "https://i.imgur.com/Leu2zTO.png",
             "tvg-id": "Rai5.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv"
         },
         {
             "lcn": 14,
-            "name": "Rai Movie Ⓖ",
+            "name": "Rai Movie",
             "tvg-name": "Rai Movie Ⓖ",
             "tvg-logo": "https://i.imgur.com/RKpO8CE.png",
             "logo": "https://i.imgur.com/RKpO8CE.png",
             "tvg-id": "RaiMovie.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv"
         },
         {
             "lcn": 15,
-            "name": "Rai Premium Ⓖ",
+            "name": "Rai Premium",
             "tvg-name": "Rai Premium Ⓖ",
             "tvg-logo": "https://i.imgur.com/RKI4nFy.png",
             "logo": "https://i.imgur.com/RKI4nFy.png",
             "tvg-id": "RaiPremium.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://raipremium3-live.akamaized.net/hls/live/2018013/raipremium3/raipremium3/playlist.m3u8"
         },
         {
             "lcn": 16,
-            "name": "Cielo Ⓖ",
+            "name": "Cielo",
             "tvg-name": "Cielo Ⓖ",
             "tvg-logo": "https://i.imgur.com/cPluF03.png",
             "logo": "https://i.imgur.com/cPluF03.png",
@@ -162,7 +162,7 @@
         },
         {
             "lcn": 17,
-            "name": "27 Twentyseven Ⓖ",
+            "name": "27 Twentyseven",
             "tvg-name": "27 Twentyseven Ⓖ",
             "tvg-logo": "https://i.imgur.com/y2PdPCK.png",
             "logo": "https://i.imgur.com/y2PdPCK.png",
@@ -192,7 +192,7 @@
         },
         {
             "lcn": 20,
-            "name": "La 5 Ⓖ",
+            "name": "La 5",
             "tvg-name": "La 5 Ⓖ",
             "tvg-logo": "https://i.imgur.com/UNyJaho.png",
             "logo": "https://i.imgur.com/UNyJaho.png",
@@ -232,7 +232,7 @@
         },
         {
             "lcn": 24,
-            "name": "Cine34   Ⓖ",
+            "name": "Cine34",
             "tvg-name": "Cine34   Ⓖ",
             "tvg-logo": "https://i.imgur.com/YyldwhI.png",
             "logo": "https://i.imgur.com/YyldwhI.png",
@@ -242,7 +242,7 @@
         },
         {
             "lcn": 25,
-            "name": "Focus Ⓖ",
+            "name": "Focus",
             "tvg-name": "Focus Ⓖ",
             "tvg-logo": "https://i.imgur.com/M4smqpF.png",
             "logo": "https://i.imgur.com/M4smqpF.png",
@@ -282,7 +282,7 @@
         },
         {
             "lcn": 29,
-            "name": "Top Crime   Ⓖ",
+            "name": "Top Crime",
             "tvg-name": "Top Crime   Ⓖ",
             "tvg-logo": "https://i.imgur.com/RFIwv9O.png",
             "logo": "https://i.imgur.com/RFIwv9O.png",
@@ -292,7 +292,7 @@
         },
         {
             "lcn": 30,
-            "name": "BOING   Ⓖ",
+            "name": "BOING",
             "tvg-name": "BOING   Ⓖ",
             "tvg-logo": "https://i.imgur.com/niSlrqT.png",
             "logo": "https://i.imgur.com/niSlrqT.png",
@@ -312,23 +312,23 @@
         },
         {
             "lcn": 32,
-            "name": "Rai Gulp Ⓖ",
+            "name": "Rai Gulp",
             "tvg-name": "Rai Gulp Ⓖ",
             "tvg-logo": "https://i.imgur.com/lu1DPVb.png",
             "logo": "https://i.imgur.com/lu1DPVb.png",
             "tvg-id": "RaiGulp.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://rai.zappr.stream/raigulp.m3u8"
         },
         {
             "lcn": 33,
-            "name": "Rai YoYo Ⓖ",
+            "name": "Rai YoYo",
             "tvg-name": "Rai YoYo Ⓖ",
             "tvg-logo": "https://i.imgur.com/DRSa3ys.png",
             "logo": "https://i.imgur.com/DRSa3ys.png",
             "tvg-id": "RaiYoyo.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv"
         },
         {
             "lcn": 34,
@@ -342,7 +342,7 @@
         },
         {
             "lcn": 35,
-            "name": "Cartoonito Ⓖ",
+            "name": "Cartoonito",
             "tvg-name": "Cartoonito Ⓖ",
             "tvg-logo": "https://i.imgur.com/oK2DcDJ.png",
             "logo": "https://i.imgur.com/oK2DcDJ.png",
@@ -362,17 +362,17 @@
         },
         {
             "lcn": 37,
-            "name": "Rai News 24 Ⓖ",
+            "name": "Rai News 24",
             "tvg-name": "Rai News 24 Ⓖ",
             "tvg-logo": "https://i.imgur.com/gdzGwB6.png",
             "logo": "https://i.imgur.com/gdzGwB6.png",
             "tvg-id": "RaiNews24.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://d27wu3gni4gipu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/ABCD/Rai/RaiNews24_IT/rainews1/playlist.m3u8"
         },
         {
             "lcn": 38,
-            "name": "Italia 2 Ⓖ",
+            "name": "Italia 2",
             "tvg-name": "Italia 2 Ⓖ",
             "tvg-logo": "https://i.imgur.com/nq48sjO.png",
             "logo": "https://i.imgur.com/nq48sjO.png",
@@ -382,7 +382,7 @@
         },
         {
             "lcn": 39,
-            "name": "Sky TG24 Ⓖ",
+            "name": "Sky TG24",
             "tvg-name": "Sky TG24 Ⓖ",
             "tvg-logo": "https://i.imgur.com/q4d3Dah.png",
             "logo": "https://i.imgur.com/q4d3Dah.png",
@@ -392,7 +392,7 @@
         },
         {
             "lcn": 40,
-            "name": "TGCOM 24 Ⓖ",
+            "name": "TGCOM 24",
             "tvg-name": "TGCOM 24 Ⓖ",
             "tvg-logo": "https://i.imgur.com/xautVD8.png",
             "logo": "https://i.imgur.com/xautVD8.png",
@@ -412,17 +412,17 @@
         },
         {
             "lcn": 42,
-            "name": "Rai Storia Ⓖ",
+            "name": "Rai Storia",
             "tvg-name": "Rai Storia Ⓖ",
             "tvg-logo": "https://i.imgur.com/K8y5q8x.png",
             "logo": "https://i.imgur.com/K8y5q8x.png",
             "tvg-id": "RaiStoria.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://rai.zappr.stream/raistoria.m3u8"
         },
         {
             "lcn": 43,
-            "name": "Mediaset Extra Ⓖ",
+            "name": "Mediaset Extra",
             "tvg-name": "Mediaset Extra Ⓖ",
             "tvg-logo": "https://i.imgur.com/mM8lopo.png",
             "logo": "https://i.imgur.com/mM8lopo.png",
@@ -442,23 +442,23 @@
         },
         {
             "lcn": 45,
-            "name": "Rai Scuola Ⓖ",
+            "name": "Rai Scuola",
             "tvg-name": "Rai Scuola Ⓖ",
             "tvg-logo": "https://i.imgur.com/tmtJW6s.png",
             "logo": "https://i.imgur.com/tmtJW6s.png",
             "tvg-id": "RaiScuola.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://rai.zappr.stream/raistoria.m3u8"
         },
         {
             "lcn": 46,
-            "name": "Rai Sport Ⓖ",
+            "name": "Rai Sport",
             "tvg-name": "Rai Sport Ⓖ",
             "tvg-logo": "https://i.imgur.com/xsGljsb.png",
             "logo": "https://i.imgur.com/xsGljsb.png",
             "tvg-id": "RaiSport.it",
             "group-title": "Italy",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5"
+            "url": "https://rai.zappr.stream/raisport1.m3u8"
         },
         {
             "lcn": 47,
@@ -492,7 +492,7 @@
         },
         {
             "lcn": 50,
-            "name": "Donna TV Ⓢ",
+            "name": "Donna TV",
             "tvg-name": "Donna TV Ⓢ",
             "tvg-logo": "https://i.imgur.com/Aa1Abme.png",
             "logo": "https://i.imgur.com/Aa1Abme.png",
@@ -522,7 +522,7 @@
         },
         {
             "lcn": 53,
-            "name": "Radio 105 TV Ⓖ",
+            "name": "Radio 105 TV",
             "tvg-name": "Radio 105 TV Ⓖ",
             "tvg-logo": "https://i.imgur.com/3NiLKvj.png",
             "logo": "https://i.imgur.com/3NiLKvj.png",
@@ -532,7 +532,7 @@
         },
         {
             "lcn": 54,
-            "name": "R101 TV Ⓖ",
+            "name": "R101 TV",
             "tvg-name": "R101 TV Ⓖ",
             "tvg-logo": "https://i.imgur.com/mWeEa9T.png",
             "logo": "https://i.imgur.com/mWeEa9T.png",
@@ -692,7 +692,7 @@
         },
         {
             "lcn": 70,
-            "name": "Radio Montecarlo TV Ⓖ",
+            "name": "Radio Montecarlo TV",
             "tvg-name": "Radio Montecarlo TV Ⓖ",
             "tvg-logo": "https://i.imgur.com/3TMMXmS.png",
             "logo": "https://i.imgur.com/3TMMXmS.png",
@@ -702,7 +702,7 @@
         },
         {
             "lcn": 71,
-            "name": "Virgin Radio TV Ⓖ",
+            "name": "Virgin Radio TV",
             "tvg-name": "Virgin Radio TV Ⓖ",
             "tvg-logo": "https://i.imgur.com/7Im3HI1.png",
             "logo": "https://i.imgur.com/7Im3HI1.png",
@@ -722,7 +722,7 @@
         },
         {
             "lcn": 73,
-            "name": "Camera dei Deputati Ⓢ",
+            "name": "Camera dei Deputati",
             "tvg-name": "Camera dei Deputati Ⓢ",
             "tvg-logo": "https://i.imgur.com/fqGn1k9.png",
             "logo": "https://i.imgur.com/fqGn1k9.png",
@@ -732,7 +732,7 @@
         },
         {
             "lcn": 74,
-            "name": "Rai 4K Ⓖ",
+            "name": "Rai 4K",
             "tvg-name": "Rai 4K Ⓖ",
             "tvg-logo": "https://i.imgur.com/5gkt9DD.png",
             "logo": "https://i.imgur.com/5gkt9DD.png",
@@ -742,7 +742,7 @@
         },
         {
             "lcn": 75,
-            "name": "UniNettuno University TV Ⓖ",
+            "name": "UniNettuno University TV",
             "tvg-name": "UniNettuno University TV Ⓖ",
             "tvg-logo": "https://i.imgur.com/BOGMeio.png",
             "logo": "https://i.imgur.com/BOGMeio.png",
