@@ -1,4 +1,5 @@
-[
+{
+    "channels": [
     {
         "lcn": 1,
         "name": "Rai 1",
@@ -3210,3 +3211,4 @@
         "url": "https://www.twitch.tv/teleradiostereo"
     }
 ]
+}
