@@ -122,7 +122,7 @@ function playUrl(url, li, name) {
   document.getElementById('error-msg').style.display = 'none';
 
   if (url.includes('relinker')) {
-    fetch(PROXY_URL + '?url=' + encodeURIComponent(url))
+    fetch(PROXY_URL + '?url=' + encodeURIComponent(url.replace(/&/g, '%26')))
       .then(function(r) { return r.json(); })
       .then(function(data) {
         if (data.url) { startPlay(data.url); }
