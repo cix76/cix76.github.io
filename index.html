@@ -114,14 +114,6 @@ vjsPlayer.on('playing', function() {
 // URL del Cloudflare Worker proxy (da aggiornare dopo il deploy)
 var PROXY_URL = 'https://rai-proxy.francescoingargiola76.workers.dev';
 
-function resolveUrl(url) {
-  // Se è un relinker RAI, passa dal proxy
-  if (url.includes('mediapolis.rai.it/relinker')) {
-    return PROXY_URL + '?url=' + encodeURIComponent(url);
-  }
-  return url;
-}
-
 function playUrl(url, li, name) {
   if (currentLi) currentLi.classList.remove('active');
   currentLi = li;
@@ -129,19 +121,31 @@ function playUrl(url, li, name) {
   document.getElementById('now-playing').textContent = '▶ ' + name;
   document.getElementById('error-msg').style.display = 'none';
 
-  var resolvedUrl = resolveUrl(url);
+  if (url.includes('relinker')) {
+    fetch(PROXY_URL + '?url=' + encodeURIComponent(url))
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (data.url) { startPlay(data.url); }
+        else { document.getElementById('error-msg').style.display = 'block'; }
+      })
+      .catch(function() { document.getElementById('error-msg').style.display = 'block'; });
+  } else {
+    startPlay(url);
+  }
+}
 
-  if (resolvedUrl.includes('.mpd')) {
+function startPlay(url) {
+  if (url.includes('.mpd')) {
     if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; }
     var video = document.getElementById('my-video_html5_api') || vjsPlayer.el().querySelector('video');
     dashPlayer = dashjs.MediaPlayer().create();
-    dashPlayer.initialize(video, resolvedUrl, true);
+    dashPlayer.initialize(video, url, true);
     dashPlayer.on(dashjs.MediaPlayer.events.ERROR, function() {
       document.getElementById('error-msg').style.display = 'block';
     });
   } else {
     if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; }
-    vjsPlayer.src({ src: resolvedUrl, type: 'application/x-mpegURL' });
+    vjsPlayer.src({ src: url, type: 'application/x-mpegURL' });
     vjsPlayer.play();
   }
 }
