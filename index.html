@@ -4,311 +4,169 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>CIX76 TV</title>
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet">
+<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
   body {
-    background: #0d0d0d;
-    color: #eee;
+    background: #0d0d0d; color: #eee;
     font-family: system-ui, sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    height: 100vh; display: flex; flex-direction: column; overflow: hidden;
   }
-
-  /* HEADER */
   #header {
-    background: #1a1a1a;
-    padding: 8px 16px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    border-bottom: 2px solid #E53935;
-    flex-shrink: 0;
+    background: #1a1a1a; padding: 8px 16px;
+    display: flex; align-items: center; gap: 12px;
+    border-bottom: 2px solid #E53935; flex-shrink: 0; height: 44px;
   }
-  #header h1 {
-    font-size: 18px;
-    font-weight: 800;
-    color: #E53935;
-    letter-spacing: 1px;
-  }
-  #now-playing {
-    font-size: 13px;
-    color: #aaa;
-    flex: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  /* LAYOUT PRINCIPALE */
-  #main {
-    display: flex;
-    flex: 1;
-    overflow: hidden;
-  }
-
-  /* PLAYER */
-  #player-wrap {
-    flex: 1;
-    background: #000;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    min-width: 0;
-  }
-
-  video {
-    width: 100%;
-    flex: 1;
-    background: #000;
-    display: block;
-  }
-
-  #player-overlay {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
-  }
-
-  #spinner {
-    width: 48px; height: 48px;
-    border: 4px solid rgba(255,255,255,0.2);
-    border-top-color: #E53935;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-    display: none;
-  }
-
-  @keyframes spin { to { transform: rotate(360deg); } }
-
+  #header h1 { font-size: 18px; font-weight: 800; color: #E53935; letter-spacing: 1px; }
+  #now-playing { font-size: 13px; color: #aaa; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #main { display: flex; flex: 1; overflow: hidden; }
+  #player-wrap { flex: 1; background: #000; position: relative; min-width: 0; }
+  .video-js { width: 100% !important; height: 100% !important; }
+  #my-video { width: 100%; height: 100%; }
+  .video-js .vjs-play-progress { background-color: #E53935 !important; }
+  .video-js .vjs-big-play-button { border-color: #E53935 !important; background-color: rgba(229,57,53,0.3) !important; }
   #error-msg {
-    background: rgba(229,57,53,0.15);
-    border: 1px solid #E53935;
-    color: #ff6b6b;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 14px;
-    display: none;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    background: rgba(229,57,53,0.15); border: 1px solid #E53935;
+    color: #ff6b6b; padding: 12px 20px; border-radius: 8px;
+    font-size: 14px; display: none; z-index: 10; pointer-events: none;
   }
-
-  /* LISTA CANALI */
   #sidebar {
-    width: 280px;
-    flex-shrink: 0;
-    background: #121212;
-    display: flex;
-    flex-direction: column;
-    border-left: 1px solid #222;
+    width: 280px; flex-shrink: 0; background: #121212;
+    display: flex; flex-direction: column; border-left: 1px solid #222;
   }
-
-  #search-wrap {
-    padding: 8px;
-    border-bottom: 1px solid #222;
-    flex-shrink: 0;
-  }
-
+  #search-wrap { padding: 8px; border-bottom: 1px solid #222; flex-shrink: 0; }
   #search {
-    width: 100%;
-    background: #2a2a2a;
-    border: 1px solid #333;
-    border-radius: 6px;
-    padding: 7px 10px;
-    color: #eee;
-    font-size: 13px;
-    outline: none;
+    width: 100%; background: #2a2a2a; border: 1px solid #333;
+    border-radius: 6px; padding: 7px 10px; color: #eee; font-size: 13px; outline: none;
   }
   #search:focus { border-color: #E53935; }
   #search::placeholder { color: #666; }
-
-  #channel-list {
-    flex: 1;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior-y: contain;
-  }
-
+  #channel-count { font-size: 11px; color: #555; padding: 4px 8px; border-bottom: 1px solid #1a1a1a; flex-shrink: 0; }
+  #channel-list { flex: 1; overflow-y: scroll; -webkit-overflow-scrolling: touch; overscroll-behavior-y: contain; }
   .ch-item {
-    display: flex;
-    align-items: center;
-    padding: 8px 10px;
-    cursor: pointer;
-    border-bottom: 1px solid #1e1e1e;
-    transition: background 0.15s;
-    gap: 10px;
+    display: flex; align-items: center; padding: 8px 10px;
+    cursor: pointer; border-bottom: 1px solid #1a1a1a; transition: background 0.1s; gap: 10px;
   }
   .ch-item:hover { background: #1e1e1e; }
   .ch-item.active { background: #1a1a1a; border-left: 3px solid #E53935; }
-
-  .ch-logo {
-    width: 40px; height: 40px;
-    object-fit: contain;
-    flex-shrink: 0;
-    border-radius: 4px;
-  }
-
+  .ch-logo { width: 40px; height: 40px; object-fit: contain; flex-shrink: 0; border-radius: 4px; background: #1a1a1a; }
   .ch-info { flex: 1; min-width: 0; }
-  .ch-name {
-    font-size: 13px;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .ch-num { font-size: 11px; color: #666; margin-top: 2px; }
-  .ch-hd {
-    font-size: 10px;
-    background: #E53935;
-    color: white;
-    padding: 1px 5px;
-    border-radius: 3px;
-    font-weight: 700;
-    flex-shrink: 0;
-  }
-
-  /* MOBILE: layout verticale */
+  .ch-name { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ch-num { font-size: 11px; color: #555; margin-top: 2px; }
+  .ch-hd { font-size: 10px; background: #E53935; color: white; padding: 1px 5px; border-radius: 3px; font-weight: 700; flex-shrink: 0; }
   @media (max-width: 700px) {
-    body { overflow: auto; }
     #main { flex-direction: column; }
-    #player-wrap { height: 40vw; min-height: 200px; flex: none; }
-    #sidebar { width: 100%; height: calc(100vh - 40vw - 44px); border-left: none; border-top: 1px solid #222; }
-    video { height: 100%; }
+    #player-wrap { height: 56vw; min-height: 200px; flex: none; }
+    #sidebar { width: 100%; flex: 1; border-left: none; border-top: 1px solid #222; }
   }
 </style>
 </head>
 <body>
-
 <div id="header">
   <h1>📺 CIX76</h1>
   <span id="now-playing">Seleziona un canale...</span>
 </div>
-
 <div id="main">
   <div id="player-wrap">
-    <video id="video" controls autoplay playsinline></video>
-    <div id="player-overlay">
-      <div id="spinner"></div>
-      <div id="error-msg">Stream non disponibile</div>
-    </div>
+    <video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay playsinline></video>
+    <div id="error-msg">⚠️ Stream non disponibile</div>
   </div>
-
   <div id="sidebar">
     <div id="search-wrap">
       <input id="search" type="text" placeholder="🔍 Cerca canale..." oninput="filterChannels(this.value)">
     </div>
+    <div id="channel-count"></div>
     <div id="channel-list"></div>
   </div>
 </div>
-
 <script>
-var hls = null;
+var vjsPlayer = null;
+var dashPlayer = null;
 var currentLi = null;
 var allChannels = [];
+
+vjsPlayer = videojs('my-video', {
+  techOrder: ['html5'],
+  html5: {
+    vhs: {
+      overrideNative: true,
+      enableLowInitialPlaylist: false,
+      smoothQualityChange: true,
+      allowSeeksWithinUnsafeLiveWindow: true,
+    },
+    nativeAudioTracks: false,
+    nativeVideoTracks: false,
+  },
+  liveui: true,
+  fill: true,
+});
+
+vjsPlayer.on('error', function() {
+  document.getElementById('error-msg').style.display = 'block';
+});
+vjsPlayer.on('playing', function() {
+  document.getElementById('error-msg').style.display = 'none';
+});
 
 function playUrl(url, li, name) {
   if (currentLi) currentLi.classList.remove('active');
   currentLi = li;
   li.classList.add('active');
-
-  document.getElementById('now-playing').textContent = name;
+  document.getElementById('now-playing').textContent = '▶ ' + name;
   document.getElementById('error-msg').style.display = 'none';
-  document.getElementById('spinner').style.display = 'block';
 
-  var video = document.getElementById('video');
-  if (hls) { hls.destroy(); hls = null; }
-
-  var isDash = url.includes('.mpd');
-
-  if (isDash) {
-    // DASH stream con dash.js
-    var player = dashjs.MediaPlayer().create();
-    player.initialize(video, url, true);
-    player.on(dashjs.MediaPlayer.events.STREAM_INITIALIZED, function() {
-      document.getElementById('spinner').style.display = 'none';
-    });
-    player.on(dashjs.MediaPlayer.events.ERROR, function() {
-      document.getElementById('spinner').style.display = 'none';
+  if (url.includes('.mpd')) {
+    if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; }
+    var video = document.getElementById('my-video_html5_api') || vjsPlayer.el().querySelector('video');
+    dashPlayer = dashjs.MediaPlayer().create();
+    dashPlayer.initialize(video, url, true);
+    dashPlayer.on(dashjs.MediaPlayer.events.ERROR, function() {
       document.getElementById('error-msg').style.display = 'block';
     });
-  } else if (Hls.isSupported()) {
-    hls = new Hls({
-      enableWorker: true,
-      lowLatencyMode: false,
-      maxBufferLength: 60,
-      maxMaxBufferLength: 120,
-      maxBufferHole: 0.5,
-      startFragPrefetch: true,
-      startLevel: -1,
-    });
-    hls.loadSource(url);
-    hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED, function() {
-      document.getElementById('spinner').style.display = 'none';
-      video.play().catch(function(){});
-    });
-    hls.on(Hls.Events.ERROR, function(e, data) {
-      if (data.fatal) {
-        document.getElementById('spinner').style.display = 'none';
-        document.getElementById('error-msg').style.display = 'block';
-      }
-    });
   } else {
-    // Safari nativo
-    video.src = url;
-    video.play().catch(function(){});
-    document.getElementById('spinner').style.display = 'none';
+    if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; }
+    vjsPlayer.src({ src: url, type: 'application/x-mpegURL' });
+    vjsPlayer.play();
   }
 }
 
 function renderChannels(channels) {
   var list = document.getElementById('channel-list');
   list.innerHTML = '';
+  document.getElementById('channel-count').textContent = channels.length + ' canali';
   channels.forEach(function(ch) {
     var li = document.createElement('div');
     li.className = 'ch-item';
-    li.dataset.url = ch.url;
-    li.dataset.name = ch.name;
     li.innerHTML =
-      '<img class="ch-logo" src="' + (ch.logo || '') + '" onerror="this.style.display=\'none\'">' +
-      '<div class="ch-info">' +
-        '<div class="ch-name">' + ch.name + '</div>' +
-        '<div class="ch-num">Canale ' + ch.lcn + '</div>' +
-      '</div>' +
+      '<img class="ch-logo" src="' + (ch.logo||'') + '" onerror="this.style.display=\'none\'">' +
+      '<div class="ch-info"><div class="ch-name">' + ch.name + '</div><div class="ch-num">Canale ' + ch.lcn + '</div></div>' +
       (ch.hd ? '<span class="ch-hd">HD</span>' : '');
-    li.addEventListener('click', function() { playUrl(ch.url, li, ch.name); });
+    li.addEventListener('click', (function(channel){ return function(){ playUrl(channel.url, li, channel.name); }; })(ch));
     list.appendChild(li);
   });
 }
 
 function filterChannels(query) {
   var q = query.toLowerCase();
-  var filtered = allChannels.filter(function(ch) {
-    return ch.name.toLowerCase().includes(q);
-  });
-  renderChannels(filtered);
+  renderChannels(allChannels.filter(function(ch){ return ch.name.toLowerCase().includes(q); }));
 }
 
 fetch('https://raw.githubusercontent.com/cix76/cix76.github.io/refs/heads/main/list_jason.json')
-  .then(function(r) { return r.json(); })
-  .then(function(data) {
+  .then(function(r){ return r.json(); })
+  .then(function(data){
     allChannels = data.channels;
     renderChannels(allChannels);
-    // Avvia primo canale
     if (allChannels.length > 0) {
       var firstLi = document.getElementById('channel-list').firstChild;
       if (firstLi) playUrl(allChannels[0].url, firstLi, allChannels[0].name);
     }
   })
-  .catch(function(e) {
+  .catch(function(){
     document.getElementById('error-msg').textContent = 'Errore caricamento canali';
     document.getElementById('error-msg').style.display = 'block';
-    document.getElementById('spinner').style.display = 'none';
   });
 </script>
 </body>
