@@ -239,9 +239,12 @@ function playUrl(url, li, name) {
   } else if (Hls.isSupported()) {
     hls = new Hls({
       enableWorker: true,
-      xhrSetup: function(xhr) {
-        xhr.setRequestHeader('Referer', 'https://cix76.github.io/');
-      }
+      lowLatencyMode: false,
+      maxBufferLength: 60,
+      maxMaxBufferLength: 120,
+      maxBufferHole: 0.5,
+      startFragPrefetch: true,
+      startLevel: -1,
     });
     hls.loadSource(url);
     hls.attachMedia(video);
