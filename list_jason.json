@@ -108,7 +108,7 @@
       "logo": "https://i.imgur.com/XFkZRfv.png",
       "tvg-id": "Rai4.it",
       "group-title": "Italy",
-      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/rai4/browser-dash/rai4.mpd"
     },
     {
       "lcn": 12,
@@ -128,7 +128,7 @@
       "logo": "https://i.imgur.com/Leu2zTO.png",
       "tvg-id": "Rai5.it",
       "group-title": "Italy",
-      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/rai5/browser-dash/rai5.mpd"
     },
     {
       "lcn": 14,
@@ -138,7 +138,7 @@
       "logo": "https://i.imgur.com/RKpO8CE.png",
       "tvg-id": "RaiMovie.it",
       "group-title": "Italy",
-      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/raimovie/browser-dash/raimovie.mpd"
     },
     {
       "lcn": 15,
@@ -148,7 +148,7 @@
       "logo": "https://i.imgur.com/RKI4nFy.png",
       "tvg-id": "RaiPremium.it",
       "group-title": "Italy",
-      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/raipremium/browser-dash/raipremium.mpd"
     },
     {
       "lcn": 16,
@@ -328,7 +328,7 @@
       "logo": "https://i.imgur.com/DRSa3ys.png",
       "tvg-id": "RaiYoyo.it",
       "group-title": "Italy",
-      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/raiyoyo/browser-dash/raiyoyo.mpd"
     },
     {
       "lcn": 34,
@@ -3597,83 +3597,6 @@
       "logo": "https://i.imgur.com/eRNgqnA.png",
       "group-title": "Italy",
       "url": "https://www.twitch.tv/teleradiostereo"
-    },
-    {
-      "lcn": 500,
-      "name": "Rai 1 HD",
-      "tvg-name": "Rai 1 HD",
-      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/512px-Rai_1_-_Logo_2016.svg.png",
-      "tvg-id": "Rai1.it",
-      "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd",
-      "hd": true
-    },
-    {
-      "lcn": 501,
-      "name": "Rai 2 HD",
-      "tvg-name": "Rai 2 HD",
-      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/512px-Rai_2_-_Logo_2016.svg.png",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/512px-Rai_2_-_Logo_2016.svg.png",
-      "tvg-id": "Rai2.it",
-      "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd",
-      "hd": true
-    },
-    {
-      "lcn": 502,
-      "name": "Rai Gulp HD",
-      "tvg-name": "Rai Gulp HD",
-      "tvg-logo": "https://i.imgur.com/irAhPJM.png",
-      "logo": "https://i.imgur.com/irAhPJM.png",
-      "tvg-id": "RaiGulp.it",
-      "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd",
-      "hd": true
-    },
-    {
-      "lcn": 503,
-      "name": "Rai News 24 HD",
-      "tvg-name": "Rai News 24 HD",
-      "tvg-logo": "https://i.imgur.com/n2u57y3.png",
-      "logo": "https://i.imgur.com/n2u57y3.png",
-      "tvg-id": "RaiNews24.it",
-      "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd",
-      "hd": true
-    },
-    {
-      "lcn": 504,
-      "name": "Rai Scuola HD",
-      "tvg-name": "Rai Scuola HD",
-      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/512px-Rai_Scuola_-_Logo_2017.svg.png",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/512px-Rai_Scuola_-_Logo_2017.svg.png",
-      "tvg-id": "RaiScuola.it",
-      "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd",
-      "hd": true
-    },
-    {
-      "lcn": 505,
-      "name": "Rai Sport HD",
-      "tvg-name": "Rai Sport HD",
-      "tvg-logo": "https://i.imgur.com/6PEevOM.png",
-      "logo": "https://i.imgur.com/6PEevOM.png",
-      "tvg-id": "RaiSport.it",
-      "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd",
-      "hd": true
-    },
-    {
-      "lcn": 506,
-      "name": "Rai Storia HD",
-      "tvg-name": "Rai Storia HD",
-      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/512px-Rai_Storia_-_Logo_2017.svg.png",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/512px-Rai_Storia_-_Logo_2017.svg.png",
-      "tvg-id": "RaiStoria.it",
-      "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd",
-      "hd": true
     }
   ]
 }
