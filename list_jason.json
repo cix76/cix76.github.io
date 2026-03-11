@@ -231,6 +231,16 @@
       "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8"
     },
     {
+      "lcn": 63,
+      "name": "Gambero Rosso",
+      "tvg-name": "Gambero Rosso",
+      "tvg-logo": "https://i.imgur.com/RApMW5x.png",
+      "logo": "https://i.imgur.com/RApMW5x.png",
+      "tvg-id": "GamberoRosso.it",
+      "group-title": "Italy",
+      "url": "https://www.dailymotion.com/cdn/live/video/x9u215s.mpd?sec=3FE6qHnAR5mSywqiY3XmMw"
+    },
+    {
       "lcn": 24,
       "name": "Cine34",
       "tvg-name": "Cine34   Ⓖ",
@@ -399,6 +409,16 @@
       "tvg-id": "TGCom24.it",
       "group-title": "Italy",
       "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8"
+    },
+    {
+      "lcn": 384,
+      "name": "Euronews Italian Ⓨ",
+      "tvg-name": "Euronews Italian Ⓨ",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png",
+      "tvg-id": "EuronewsItalian.fr",
+      "group-title": "Italy",
+      "url": "https://acb6ca89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0l0YWxpYW5vX0hMUw/playlist.m3u8"
     },
     {
       "lcn": 41,
@@ -619,16 +639,6 @@
       "tvg-id": "BeJoyKids.it",
       "group-title": "Italy",
       "url": "https://64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8"
-    },
-    {
-      "lcn": 63,
-      "name": "Gambero Rosso",
-      "tvg-name": "Gambero Rosso",
-      "tvg-logo": "https://i.imgur.com/RApMW5x.png",
-      "logo": "https://i.imgur.com/RApMW5x.png",
-      "tvg-id": "GamberoRosso.it",
-      "group-title": "Italy",
-      "url": "https://2018f6355a15442ebb37007fa4f6c064.msvdn.net/live/S7530969/XWerenuxbSdW/playlist.m3u8"
     },
     {
       "lcn": 64,
@@ -3551,16 +3561,6 @@
       "tvg-id": "TRMh24.it",
       "group-title": "Italy",
       "url": "https://www.youtube.com/user/trmh24/live"
-    },
-    {
-      "lcn": 384,
-      "name": "Euronews Italian Ⓨ",
-      "tvg-name": "Euronews Italian Ⓨ",
-      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png",
-      "tvg-id": "EuronewsItalian.fr",
-      "group-title": "Italy",
-      "url": "https://www.youtube.com/user/euronewsit/live"
     },
     {
       "lcn": 385,
