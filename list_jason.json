@@ -108,7 +108,7 @@
       "logo": "https://i.imgur.com/XFkZRfv.png",
       "tvg-id": "Rai4.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rai4/browser-dash/rai4.mpd"
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv"
     },
     {
       "lcn": 12,
@@ -128,7 +128,7 @@
       "logo": "https://i.imgur.com/Leu2zTO.png",
       "tvg-id": "Rai5.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rai5/browser-dash/rai5.mpd"
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv"
     },
     {
       "lcn": 14,
@@ -138,7 +138,7 @@
       "logo": "https://i.imgur.com/RKpO8CE.png",
       "tvg-id": "RaiMovie.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/raimovie/browser-dash/raimovie.mpd"
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv"
     },
     {
       "lcn": 15,
@@ -148,7 +148,7 @@
       "logo": "https://i.imgur.com/RKI4nFy.png",
       "tvg-id": "RaiPremium.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/raipremium/browser-dash/raipremium.mpd"
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv"
     },
     {
       "lcn": 16,
@@ -328,7 +328,7 @@
       "logo": "https://i.imgur.com/DRSa3ys.png",
       "tvg-id": "RaiYoyo.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/raiyoyo/browser-dash/raiyoyo.mpd"
+      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv"
     },
     {
       "lcn": 34,
