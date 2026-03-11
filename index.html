@@ -58,9 +58,11 @@
   .ch-num { font-size: 11px; color: #555; margin-top: 2px; }
   .ch-hd { font-size: 10px; background: #E53935; color: white; padding: 1px 5px; border-radius: 3px; font-weight: 700; flex-shrink: 0; }
   @media (max-width: 700px) {
-    #main { flex-direction: column; }
-    #player-wrap { height: 56vw; min-height: 200px; flex: none; }
-    #sidebar { width: 100%; flex: 1; border-left: none; border-top: 1px solid #222; }
+    body { overflow: hidden; }
+    #main { flex-direction: column; height: calc(100vh - 44px); }
+    #player-wrap { height: 56vw; min-height: 180px; max-height: 40vh; flex: none; }
+    #sidebar { width: 100%; flex: 1; min-height: 0; border-left: none; border-top: 1px solid #222; overflow: hidden; display: flex; flex-direction: column; }
+    #channel-list { flex: 1; overflow-y: auto !important; -webkit-overflow-scrolling: touch; }
   }
 </style>
 </head>
