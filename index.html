@@ -139,6 +139,17 @@ function startPlay(url) {
     if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; }
     var video = document.getElementById('my-video_html5_api') || vjsPlayer.el().querySelector('video');
     dashPlayer = dashjs.MediaPlayer().create();
+    dashPlayer.updateSettings({
+      streaming: {
+        buffer: {
+          bufferTimeAtTopQuality: 8,
+          bufferTimeAtTopQualityLongForm: 8,
+          initialBufferLevel: 2,
+          fastSwitchEnabled: true,
+        },
+        abr: { autoSwitchBitrate: { video: true } }
+      }
+    });
     dashPlayer.initialize(video, url, true);
     dashPlayer.on(dashjs.MediaPlayer.events.ERROR, function() {
       document.getElementById('error-msg').style.display = 'block';
