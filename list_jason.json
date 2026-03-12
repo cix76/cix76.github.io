@@ -118,7 +118,7 @@
       "logo": "https://i.imgur.com/Ixz1BY3.png",
       "tvg-id": "Iris.it",
       "group-title": "Italy",
-      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/iris/browser-dash/iris.mpd"
     },
     {
       "lcn": 13,
@@ -168,7 +168,7 @@
       "logo": "https://i.imgur.com/y2PdPCK.png",
       "tvg-id": "27Twentyseven.it",
       "group-title": "Italy",
-      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/27twentyseven/browser-dash/27twentyseven.mpd"
     },
     {
       "lcn": 18,
@@ -198,7 +198,7 @@
       "logo": "https://i.imgur.com/UNyJaho.png",
       "tvg-id": "La5.it",
       "group-title": "Italy",
-      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/la5/browser-dash/la5.mpd"
     },
     {
       "lcn": 21,
@@ -248,7 +248,7 @@
       "logo": "https://i.imgur.com/YyldwhI.png",
       "tvg-id": "Cine34.it",
       "group-title": "Italy",
-      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/cine34/browser-dash/cine34.mpd"
     },
     {
       "lcn": 25,
@@ -258,7 +258,7 @@
       "logo": "https://i.imgur.com/M4smqpF.png",
       "tvg-id": "Focus.it",
       "group-title": "Italy",
-      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/focus/browser-dash/focus.mpd"
     },
     {
       "lcn": 26,
@@ -298,7 +298,7 @@
       "logo": "https://i.imgur.com/RFIwv9O.png",
       "tvg-id": "TopCrime.it",
       "group-title": "Italy",
-      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/topcrime/browser-dash/topcrime.mpd"
     },
     {
       "lcn": 30,
@@ -308,7 +308,7 @@
       "logo": "https://i.imgur.com/niSlrqT.png",
       "tvg-id": "BoingItaly.it",
       "group-title": "Italy",
-      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8"
+      "url": "https://viamotionhsi.netplus.ch/live/eds/boing/browser-dash/boing.mpd"
     },
     {
       "lcn": 31,
