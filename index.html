@@ -113,8 +113,8 @@ vjsPlayer.on('playing', function() {
   document.getElementById('error-msg').style.display = 'none';
 });
 
-// URL del Cloudflare Worker proxy (da aggiornare dopo il deploy)
-var PROXY_URL = 'https://rai-proxy.francescoingargiola76.workers.dev';
+// URL del proxy VPS Aruba
+var PROXY_URL = 'http://5.249.151.140:3000/proxy';
 
 function playUrl(url, li, name) {
   if (currentLi) currentLi.classList.remove('active');
