@@ -118,7 +118,7 @@
       "logo": "https://i.imgur.com/Ixz1BY3.png",
       "tvg-id": "Iris.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/iris/browser-dash/iris.mpd"
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8"
     },
     {
       "lcn": 13,
@@ -168,7 +168,7 @@
       "logo": "https://i.imgur.com/y2PdPCK.png",
       "tvg-id": "27Twentyseven.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/27twentyseven/browser-dash/27twentyseven.mpd"
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8"
     },
     {
       "lcn": 18,
@@ -198,7 +198,7 @@
       "logo": "https://i.imgur.com/UNyJaho.png",
       "tvg-id": "La5.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/la5/browser-dash/la5.mpd"
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8"
     },
     {
       "lcn": 21,
@@ -248,7 +248,7 @@
       "logo": "https://i.imgur.com/YyldwhI.png",
       "tvg-id": "Cine34.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/cine34/browser-dash/cine34.mpd"
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8"
     },
     {
       "lcn": 25,
@@ -258,7 +258,7 @@
       "logo": "https://i.imgur.com/M4smqpF.png",
       "tvg-id": "Focus.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/focus/browser-dash/focus.mpd"
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8"
     },
     {
       "lcn": 26,
@@ -298,7 +298,7 @@
       "logo": "https://i.imgur.com/RFIwv9O.png",
       "tvg-id": "TopCrime.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/topcrime/browser-dash/topcrime.mpd"
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8"
     },
     {
       "lcn": 30,
@@ -308,7 +308,7 @@
       "logo": "https://i.imgur.com/niSlrqT.png",
       "tvg-id": "BoingItaly.it",
       "group-title": "Italy",
-      "url": "https://viamotionhsi.netplus.ch/live/eds/boing/browser-dash/boing.mpd"
+      "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8"
     },
     {
       "lcn": 31,
@@ -398,7 +398,7 @@
       "logo": "https://i.imgur.com/q4d3Dah.png",
       "tvg-id": "SkyTG24.it",
       "group-title": "Italy",
-      "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/skytg24web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556"
+      "url": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556"
     },
     {
       "lcn": 40,
@@ -418,7 +418,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png",
       "tvg-id": "EuronewsItalian.fr",
       "group-title": "Italy",
-      "url": "https://www.youtube.com/user/euronewsit/live"
+      "url": "https://acb6ca89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0l0YWxpYW5vX0hMUw/playlist.m3u8"
     },
     {
       "lcn": 41,
