@@ -123,7 +123,7 @@ function playUrl(url, li, name) {
   document.getElementById('now-playing').textContent = '▶ ' + name;
   document.getElementById('error-msg').style.display = 'none';
 
-  if (url.includes('relinker')) {
+  if (url.includes('relinker') || url.includes('viamotionhsi') || url.includes('msvdn.net')) {
     fetch(PROXY_URL + '?url=' + url.replace(/&/g, '%26'))
       .then(function(r) { return r.json(); })
       .then(function(data) {
