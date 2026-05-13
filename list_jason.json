@@ -88,7 +88,7 @@
       "logo": "https://i.imgur.com/Hp723RU.png",
       "tvg-id": "Nove.it",
       "group-title": "Italy",
-      "url": "https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8"
+      "url": "https://d3pkcyie9gav9y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jrrq3jtymmzoc/out/v1/fdb9d129ff7f4a7bbc8fe0902122e48f/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 10,
@@ -208,7 +208,7 @@
       "logo": "https://i.imgur.com/9dcTYg1.png",
       "tvg-id": "RealTimeItaly.it",
       "group-title": "Italy",
-      "url": "https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8"
+      "url": "https://d2op4s24rubfe0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up3xdjecl66jn/out/v1/54acbe71ddae4c9986c03fad1352bc84/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 22,
@@ -228,7 +228,7 @@
       "logo": "https://i.imgur.com/i60OYr9.png",
       "tvg-id": "FoodNetworkItaly.it",
       "group-title": "Italy",
-      "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8"
+      "url": "https://d9kc4bu8iry3b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x4si0bflc4gq7/out/v1/dcecf7d9fd2b49c59e85a65016ddc255/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 63,
@@ -278,7 +278,7 @@
       "logo": "https://i.imgur.com/5IxIFJ0.png",
       "tvg-id": "DiscoveryChannel.it",
       "group-title": "Italy",
-      "url": "https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8"
+      "url": "https://d3a5c87efixjp8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-94vzyl58b7u8n/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 28,
@@ -288,7 +288,7 @@
       "logo": "https://i.imgur.com/0PIRwZS.png",
       "tvg-id": "Giallo.it",
       "group-title": "Italy",
-      "url": "https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8"
+      "url": "https://d2iz84wnbtnuey.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-32xgu2ku0wsk9/out/v1/8a939414e62c460a9ccab7b699ed1106/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 29,
@@ -318,7 +318,7 @@
       "logo": "https://i.imgur.com/wlLgSiA.png",
       "tvg-id": "K2.it",
       "group-title": "Italy",
-      "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8"
+      "url": "https://alwaysdata-api.zappr.stream/k2.mpd?clearkeyPlayer.maxQuality=720"
     },
     {
       "lcn": 32,
@@ -348,7 +348,7 @@
       "logo": "https://i.imgur.com/9y1zIAe.png",
       "tvg-id": "Frisbee.it",
       "group-title": "Italy",
-      "url": "https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8"
+      "url": "https://alwaysdata-api.zappr.stream/frisbee.mpd?clearkeyPlayer.maxQuality=720"
     },
     {
       "lcn": 35,
@@ -428,7 +428,7 @@
       "logo": "https://i.imgur.com/dmEmRX7.png",
       "tvg-id": "DMAXItaly.it",
       "group-title": "Italy",
-      "url": "https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8"
+      "url": "https://d24suwc4j2wvyy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-09ap0j3u2xm1u/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 42,
@@ -458,7 +458,7 @@
       "logo": "https://i.imgur.com/emLNC0U.png",
       "tvg-id": "HGTVItaly.it",
       "group-title": "Italy",
-      "url": "https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8"
+      "url": "https://d21emhonubg8zy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yspg3gkuqw4f2/out/v1/063d830ad098456e8c76bd198dea0122/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 45,
@@ -488,7 +488,7 @@
       "logo": "https://i.imgur.com/ipj2H0n.png",
       "tvg-id": "MotorTrend.it",
       "group-title": "Italy",
-      "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8"
+      "url": "https://d1m086gym5403i.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9yn62b89f3m5l/out/v1/fa965f3d7abe46108988aed4fb3d0ee5/HLS_CMAF_DRM/index.m3u8"
     },
     {
       "lcn": 48,
@@ -618,7 +618,7 @@
       "logo": "https://i.imgur.com/8a6WYU2.png",
       "tvg-id": "Manga.it",
       "group-title": "Italy",
-      "url": "https://c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/playlist.m3u8"
+      "url": "https://c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.m3u8"
     },
     {
       "lcn": 61,
